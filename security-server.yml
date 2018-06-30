@@ -30,7 +30,7 @@ spring:
         password: 'db-tcc-123'
         platform: mysql
         schema: classpath:/sql/schema.sql
-        url: jdbc:mysql://172.17.0.2:3306/db_oauth?verifyServerCertificate=false&useSSL=false&requireSSL=false
+        url: jdbc:mysql://172.17.0.2:3306/db_oauth?verifyServerCertificate=false&useSSL=false&requireSSL=false&allowPublicKeyRetrieval=true
         username: root
     jpa:
         database-platform: org.hibernate.dialect.MySQLDialect
