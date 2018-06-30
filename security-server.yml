@@ -19,7 +19,7 @@ security:
             access-token-validity-seconds: 1800
             authorized-grant-types: password,refresh_token
             client-id: master-token 
-            client-secret: bWFzdGVyLXRva2VuOiQyYSQxMCRBNDdqcG11YlBIaWVwcnFnMHVLSkR1OFFDNGhMNkRYbnhuaVVQRFdHQlNFcmlBampzWVZDNgo=
+            client-secret: $2a$10$A47jpmubPHieprqg0uKJDu8QC4hL6DXnxniUPDWGBSEriAjjsYVC6 
             resource-ids: resources
             scope: read,write
 
