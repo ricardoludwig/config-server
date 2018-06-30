@@ -27,7 +27,7 @@ spring:
     datasource:
         data: classpath:/sql/data.sql
         driver-class-name: com.mysql.jdbc.Driver
-        password: '1234'
+        password: 'db-tcc-123'
         platform: mysql
         schema: classpath:/sql/schema.sql
         url: jdbc:mysql://172.17.0.2:3306/oauth?verifyServerCertificate=false&useSSL=false&requireSSL=false
