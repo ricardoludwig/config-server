@@ -1,5 +1,5 @@
 server:
-  port: 7003 
+  port: 7003
 
 eureka:
   instance:
@@ -12,3 +12,19 @@ eureka:
       defaultZone: http://${eureka.instance.hostname}:${eureka.instance.port}/eureka/
   server:
     wait-time-in-ms-when-sync-empty: 3000
+
+spring:
+    datasource:
+        driver-class-name: com.mysql.cj.jdbc.Driver
+        password: 'db-tcc-123'
+        platform: mysql
+        url: jdbc:mysql://172.17.0.2:3306/customer_db?verifyServerCertificate=false&useSSL=false&requireSSL=false&allowPublicKeyRetrieval=true
+        username: root
+    jpa:
+        database-platform: org.hibernate.dialect.MySQLDialect
+        generate-ddl: false
+        hibernate:
+            ddl-auto: none
+        show-sql: true
+
+
