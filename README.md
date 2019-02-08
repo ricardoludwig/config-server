@@ -1,2 +1,1 @@
-# config-server
-Spring Cloud Config Server - TCC
+* Spring Cloud Config Server
